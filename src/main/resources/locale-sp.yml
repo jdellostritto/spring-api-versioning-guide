@@ -1,0 +1,31 @@
+# ===============================
+# = Locale sp (Español) para OpenAPI.
+# ===============================
+openapi:
+  info:
+    # Título de su aplicación. Requerido.
+    title: Tutorial - Recurso de Saludo y Despedida
+    # Versión de API. Puede usar control de versiones semántico como 1.0.0,
+    # o una cadena arbitraria como 0.99-beta. Requerido.
+    version: 0.0.1-SNAPSHOT
+    # Descripción de API. Texto arbitrario en CommonMark o HTML.
+    description: "APIs de recursos de ejemplo. Un recurso de saludo proporciona una API de saludo. Los recursos de despedida proporcionan una API de despedida.
+                 Este es un proyecto de tutorial para demostrar el ciclo de vida de API, documentación e implementación."
+
+    # Enlace a la página que describe los términos de servicio.
+    # Debe estar en formato de URL.
+    termsOfService: http://example.com/terms/
+
+    # Información de contacto: nombre, correo electrónico, URL.
+    contactName: Soporte del Portal de Desarrolladores
+    contactEmail: support@example.com
+    contactUrl: http://example.com/support
+
+    # Nombre de la licencia y URL a la descripción de la licencia.
+    licenseName: Apache 2.0
+    licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.html
+
+    # Enlace a la documentación externa (si existe).
+    # Las herramientas de generación de código o documentación pueden usar la descripción como el texto del enlace.
+    externalDocsDescription: Documentación de Java de Jim DelloStritto
+    externalDocsUrl: http://example.com/docs

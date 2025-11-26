@@ -1,0 +1,27 @@
+# ===============================
+# = Spring Doc
+# ===============================
+springdoc:
+  version: 0.0.1-SNAPSHOT
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /test/index.html
+    operationsSorter: method
+    enabled: true
+
+  group-configs:
+  - group: greeting-v1
+    paths-to-match: /flip/**
+    produces-to-match: application/vnd.flipfoundry.greeting.v1+json
+    packages-to-scan: com.flipfoundry.tutorial.api.application.web
+  
+  - group: departing-v1
+    paths-to-match: /flip/**
+    produces-to-match: application/vnd.flipfoundry.departing.v1+json
+    packages-to-scan: com.flipfoundry.tutorial.api.application.web
+ 
+  - group: greeting-v2
+    paths-to-match: /flip/**
+    produces-to-match: application/vnd.flipfoundry.greeting.v2+json
+    packages-to-scan: com.flipfoundry.tutorial.api.application.web
